@@ -177,7 +177,7 @@ function dataCall(){
         }
 
         for (let i=0; i<lenghts; i++){
-            if (i<9 || i>20){
+            if (i<9 || i>18){
                 nw_light_total_hr.push(Math.round((CH1AValues[i] + CH1BValues[i] + CH1CValues[i])*1000)/1000)
                 nw_ac_total_hr.push(Math.round((CH2AValues[i] + CH2BValues[i] + CH2CValues[i])*1000)/1000)
                 nw_ups_total_hr.push(Math.round((CH3AValues[i] + CH3BValues[i] + CH3CValues[i])*1000)/1000)
@@ -187,7 +187,7 @@ function dataCall(){
         }
 
         for (let i=0; i<lenghts; i++){
-            if (i>8 && i<21){
+            if (i>8 && i<19){
                 w_light_total_hr.push(Math.round((CH1AValues[i] + CH1BValues[i] + CH1CValues[i])*1000)/1000)
                 w_ac_total_hr.push(Math.round((CH2AValues[i] + CH2BValues[i] + CH2CValues[i])*1000)/1000)
                 w_ups_total_hr.push(Math.round((CH3AValues[i] + CH3BValues[i] + CH3CValues[i])*1000)/1000)
