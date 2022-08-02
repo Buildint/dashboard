@@ -78,7 +78,7 @@ function dataCall(){
         var cons_dates = snapshot.val()
         var cons_dates_values = Object.keys(cons_dates)
         
-        for(let i = 49;i<54;i++) { 
+        for(let i = 15;i<29;i++) { 
             var req_date = snapshot.child(cons_dates_values.at(i)).val()
             var req_date_key = Object.keys(req_date)
             var req_date_key_length = Object.keys(req_date).length
@@ -112,7 +112,7 @@ function dataCall(){
         var cons_dates = snapshot.val()
         var cons_dates_values = Object.keys(cons_dates)
         
-        for(let i = 62; i<67;i++) { 
+        for(let i =30; i<46;i++) { 
             var req_date = snapshot.child(cons_dates_values.at(i)).val()
             var req_date_key = Object.keys(req_date)
             var req_date_key_length = Object.keys(req_date).length
@@ -145,7 +145,7 @@ function dataCall(){
         var cons_dates = snapshot.val()
         var cons_dates_values = Object.keys(cons_dates)
         
-        for(let i = -8; i<-1;i++) { 
+        for(let i = -30; i<-1;i++) { 
             var req_date = snapshot.child(cons_dates_values.at(i)).val()
             var req_date_key = Object.keys(req_date)
             var req_date_key_length = Object.keys(req_date).length
